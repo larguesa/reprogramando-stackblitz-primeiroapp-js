@@ -2,5 +2,9 @@
 import './style.css';
 
 // Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>Meu primeiro app JS</h1>`;
+const appH1 = document.getElementById('app-header');
+appH1.innerHTML = `JsApp`;
+
+const appH2 = document.getElementById('page-header');
+appH2.innerHTML = `Página inciial`;
+//comentário imnportante
